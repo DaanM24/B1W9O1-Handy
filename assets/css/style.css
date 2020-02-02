@@ -130,6 +130,7 @@ ul {
   grid-column-end: 4;
   background-color: yellow;
   height: 150px;
+  margin-bottom: 70px;
 }
 
 h1{
@@ -148,6 +149,7 @@ h1{
   grid-column-start: 4;
   grid-column-end: 6;
   background-color: yellow;
+  margin-bottom: 70px;
 }
 
 #button{
@@ -161,4 +163,84 @@ h1{
   margin-left: 200px;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.item8{
+  background-image: url("../../img/footer.jpg");
+  background-size: 100%;
+  grid-row: 5;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+.button{
+  position: absolute;
+  display: block;
+  background-color: yellow;
+  text-decoration: none;
+  width: 300px;
+  color: black;
+}
+
+#deals{
+  margin-top: 10px;
+  z-index: 2;
+  float: left;
+  top: 1240px;
+  left: 250px;
+}
+
+#diensten{
+  margin-top: 10px;
+  z-index: 2;
+  float: left;
+  top: 1240px;
+  left: 590px;
+}
+
+#contact{
+  margin-top: 10px;
+  z-index: 2;
+  float: left;
+  top: 1240px;
+  left: 930px;
+}
+
+h2{
+  margin: 0 auto;
+  font-size: 30px;
+  padding-top: 25px;
+}
+
+p{
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.item9{
+  grid-row: 6;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  margin-top: 100px;
+}
+
+.item10{
+  grid-row: 7;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  width: 450px;
+}
+
+.item11{
+  grid-row: 7;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.smallgrid{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 33% 33% 33%;
 }
